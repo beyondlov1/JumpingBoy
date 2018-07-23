@@ -96,21 +96,6 @@ public class Test1 {
         container.addItem(block4);
         container.addItem(block5);
 
-//        double tmp =0;
-//        for (int i = 0; i < 20; i++) {
-//            //block
-//            Position startPosition7 = new Position();
-//            double randomStartPositionX = 500d * Math.random()+200;
-//            tmp+=randomStartPositionX;
-//            startPosition7.setX(BigDecimal.valueOf(tmp+randomStartPositionX));
-//            startPosition7.setY(BigDecimal.valueOf(0d));
-//            Position endPosition7 = new Position();
-//            endPosition7.setX(BigDecimal.valueOf(tmp+randomStartPositionX+20d));
-//            endPosition7.setY(BigDecimal.valueOf(90d*Math.random()));
-//            Item block6= new Block(null, startPosition7, endPosition7, null);
-//            container.addItem(block6);
-//        }
-
         //init canvas
         Canvas canvas = new MyCanvas(container);
         canvas.setFocusable(true);
